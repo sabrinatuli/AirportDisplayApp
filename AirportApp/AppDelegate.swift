@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  AirportApp
 //
-//  Created by Tamzid Hasan on 30/6/21.
+//  Created by Sabrina Tuli on 30/6/21.
 //
 
 import UIKit

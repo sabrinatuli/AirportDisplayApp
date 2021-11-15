@@ -13,7 +13,23 @@
 		CE7FD208268C19E900F1CE5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7FD206268C19E900F1CE5E /* Main.storyboard */; };
 		CE7FD20A268C19EA00F1CE5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7FD209268C19EA00F1CE5E /* Assets.xcassets */; };
 		CE7FD20D268C19EA00F1CE5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7FD20B268C19EA00F1CE5E /* LaunchScreen.storyboard */; };
+		CE7FD217268C1BCD00F1CE5E /* AirportData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7FD216268C1BCD00F1CE5E /* AirportData.swift */; };
+		CE7FD219268C1BF700F1CE5E /* AirportManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7FD218268C1BF700F1CE5E /* AirportManager.swift */; };
+		CE9B5054268C2651005C7AC3 /* airportQuestion.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE9B5052268C2651005C7AC3 /* airportQuestion.txt */; };
+		CE9B5055268C2651005C7AC3 /* airport.csv in Resources */ = {isa = PBXBuildFile; fileRef = CE9B5053268C2651005C7AC3 /* airport.csv */; };
+		CE9B505E268D57F5005C7AC3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B505C268D57F5005C7AC3 /* DetailViewController.swift */; };
+		CE9B5067268D5D80005C7AC3 /* AirportAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B5066268D5D80005C7AC3 /* AirportAppTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE9B5069268D5D80005C7AC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE7FD1F5268C19E900F1CE5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE7FD1FC268C19E900F1CE5E;
+			remoteInfo = AirportApp;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		CE7FD1FD268C19E900F1CE5E /* AirportApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirportApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,10 +40,25 @@
 		CE7FD209268C19EA00F1CE5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE7FD20C268C19EA00F1CE5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE7FD20E268C19EA00F1CE5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE7FD216268C1BCD00F1CE5E /* AirportData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportData.swift; sourceTree = "<group>"; };
+		CE7FD218268C1BF700F1CE5E /* AirportManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportManager.swift; sourceTree = "<group>"; };
+		CE9B5052268C2651005C7AC3 /* airportQuestion.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = airportQuestion.txt; sourceTree = "<group>"; };
+		CE9B5053268C2651005C7AC3 /* airport.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = airport.csv; sourceTree = "<group>"; };
+		CE9B505C268D57F5005C7AC3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CE9B5064268D5D80005C7AC3 /* AirportAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirportAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9B5066268D5D80005C7AC3 /* AirportAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportAppTests.swift; sourceTree = "<group>"; };
+		CE9B5068268D5D80005C7AC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		CE7FD1FA268C19E900F1CE5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9B5061268D5D80005C7AC3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,7 +71,10 @@
 		CE7FD1F4268C19E900F1CE5E = {
 			isa = PBXGroup;
 			children = (
+				CE9B5053268C2651005C7AC3 /* airport.csv */,
+				CE9B5052268C2651005C7AC3 /* airportQuestion.txt */,
 				CE7FD1FF268C19E900F1CE5E /* AirportApp */,
+				CE9B5065268D5D80005C7AC3 /* AirportAppTests */,
 				CE7FD1FE268C19E900F1CE5E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				CE7FD1FD268C19E900F1CE5E /* AirportApp.app */,
+				CE9B5064268D5D80005C7AC3 /* AirportAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +91,51 @@
 		CE7FD1FF268C19E900F1CE5E /* AirportApp */ = {
 			isa = PBXGroup;
 			children = (
+				CE9B506E268D6976005C7AC3 /* Controller */,
+				CE7FD214268C1B9100F1CE5E /* Model */,
 				CE7FD200268C19E900F1CE5E /* AppDelegate.swift */,
 				CE7FD202268C19E900F1CE5E /* SceneDelegate.swift */,
-				CE7FD204268C19E900F1CE5E /* ViewController.swift */,
 				CE7FD206268C19E900F1CE5E /* Main.storyboard */,
 				CE7FD209268C19EA00F1CE5E /* Assets.xcassets */,
 				CE7FD20B268C19EA00F1CE5E /* LaunchScreen.storyboard */,
 				CE7FD20E268C19EA00F1CE5E /* Info.plist */,
 			);
 			path = AirportApp;
+			sourceTree = "<group>";
+		};
+		CE7FD214268C1B9100F1CE5E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE7FD215268C1BA800F1CE5E /* Data */,
+				CE7FD218268C1BF700F1CE5E /* AirportManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE7FD215268C1BA800F1CE5E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				CE7FD216268C1BCD00F1CE5E /* AirportData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		CE9B5065268D5D80005C7AC3 /* AirportAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE9B5066268D5D80005C7AC3 /* AirportAppTests.swift */,
+				CE9B5068268D5D80005C7AC3 /* Info.plist */,
+			);
+			path = AirportAppTests;
+			sourceTree = "<group>";
+		};
+		CE9B506E268D6976005C7AC3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE7FD204268C19E900F1CE5E /* ViewController.swift */,
+				CE9B505C268D57F5005C7AC3 /* DetailViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +158,24 @@
 			productReference = CE7FD1FD268C19E900F1CE5E /* AirportApp.app */;
 			productType = "com.apple.product-type.application";
 		};
+		CE9B5063268D5D80005C7AC3 /* AirportAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE9B506B268D5D80005C7AC3 /* Build configuration list for PBXNativeTarget "AirportAppTests" */;
+			buildPhases = (
+				CE9B5060268D5D80005C7AC3 /* Sources */,
+				CE9B5061268D5D80005C7AC3 /* Frameworks */,
+				CE9B5062268D5D80005C7AC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE9B506A268D5D80005C7AC3 /* PBXTargetDependency */,
+			);
+			name = AirportAppTests;
+			productName = AirportAppTests;
+			productReference = CE9B5064268D5D80005C7AC3 /* AirportAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -98,6 +187,10 @@
 				TargetAttributes = {
 					CE7FD1FC268C19E900F1CE5E = {
 						CreatedOnToolsVersion = 12.5.1;
+					};
+					CE9B5063268D5D80005C7AC3 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = CE7FD1FC268C19E900F1CE5E;
 					};
 				};
 			};
@@ -115,6 +208,7 @@
 			projectRoot = "";
 			targets = (
 				CE7FD1FC268C19E900F1CE5E /* AirportApp */,
+				CE9B5063268D5D80005C7AC3 /* AirportAppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -124,9 +218,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE9B5055268C2651005C7AC3 /* airport.csv in Resources */,
 				CE7FD20D268C19EA00F1CE5E /* LaunchScreen.storyboard in Resources */,
 				CE7FD20A268C19EA00F1CE5E /* Assets.xcassets in Resources */,
+				CE9B5054268C2651005C7AC3 /* airportQuestion.txt in Resources */,
 				CE7FD208268C19E900F1CE5E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9B5062268D5D80005C7AC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,10 +243,29 @@
 				CE7FD205268C19E900F1CE5E /* ViewController.swift in Sources */,
 				CE7FD201268C19E900F1CE5E /* AppDelegate.swift in Sources */,
 				CE7FD203268C19E900F1CE5E /* SceneDelegate.swift in Sources */,
+				CE9B505E268D57F5005C7AC3 /* DetailViewController.swift in Sources */,
+				CE7FD217268C1BCD00F1CE5E /* AirportData.swift in Sources */,
+				CE7FD219268C1BF700F1CE5E /* AirportManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9B5060268D5D80005C7AC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9B5067268D5D80005C7AC3 /* AirportAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE9B506A268D5D80005C7AC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE7FD1FC268C19E900F1CE5E /* AirportApp */;
+			targetProxy = CE9B5069268D5D80005C7AC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		CE7FD206268C19E900F1CE5E /* Main.storyboard */ = {
@@ -288,6 +410,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AirportApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -295,7 +418,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sabrina.AirportApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -306,6 +429,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AirportApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,7 +437,45 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sabrina.AirportApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CE9B506C268D5D80005C7AC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AirportAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sabrina.AirportAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirportApp.app/AirportApp";
+			};
+			name = Debug;
+		};
+		CE9B506D268D5D80005C7AC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AirportAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sabrina.AirportAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirportApp.app/AirportApp";
 			};
 			name = Release;
 		};
@@ -334,6 +496,15 @@
 			buildConfigurations = (
 				CE7FD212268C19EA00F1CE5E /* Debug */,
 				CE7FD213268C19EA00F1CE5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE9B506B268D5D80005C7AC3 /* Build configuration list for PBXNativeTarget "AirportAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9B506C268D5D80005C7AC3 /* Debug */,
+				CE9B506D268D5D80005C7AC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

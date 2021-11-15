@@ -1,0 +1,14 @@
+We would like you to develop a simple app that will display some airport information.
+
+The airport information is provided in the "airport.csv" file. The format is the following:
+<airport-code>tab<time zone>tab<city>tab<state>tab<airport name>
+
+We would like the app to:
+1. display a list of airport names and timezones. The user can sort the airport by the name or the timezones. When sort by the timezone, group them by the timezone.
+2. Select on one airport, show a new screen with all airport information.
+
+Please use Swift for this assignment. Also explain the design patterns and assumptions you've made for the assignment in a text file.
+
+You have two hours to complete your programming assignment and email the results back to recruiting@promptu.com. Alternatively, you may create a GitHub repository and send us the link.
+
+We look forward to receiving your response shortly. Good luck!
